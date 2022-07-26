@@ -3,23 +3,36 @@ body {
     flex-direction: column;
     justify-content: space-between;
     flex: 1;
+    padding: 0px;
+    margin: 0px;
 } 
 
-.container {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    flex: 1;
-    flex-wrap: nowrap;
-} 
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+h1 {
+    font-size: 48px;
+    color: #f9faf8;
+
+}
 
 .hero {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     flex-wrap: wrap;
-    padding: 0px;
-    margin: 0px;
+    padding-bottom: 50px;
+    padding-top: 10px;
+    background-color: #1f2937;
+    color: #f9faf9;
+
+}
+
+p {
+    font-size: 18px;
+    color: #e5e7eb;
 }
 
 .header {
@@ -38,12 +51,17 @@ body {
 ul {
     display: flex;
     list-style: none;
-
+    font-size: 18px;
+    color: #e5e7eb;
 }
 
 li {
     margin-left: 10px;
 } 
+
+.place {
+    border-radius: 10px;
+}
 
 
 .section1 {
@@ -51,6 +69,7 @@ li {
     flex-direction: column;
     align-items: flex-end;
     justify-content: space-between;
+
 }  
 
 .sec1 {
@@ -61,6 +80,12 @@ li {
 button {
     background-color: #3882f6;
     color: white;
+    padding: 5px 20px;
+    border-radius: 5px;
+}
+
+.button1 {
+    border: 0px;
 }
 
 .section2 {
@@ -73,7 +98,11 @@ button {
     display: flex;
     justify-content: center;
     gap: 150px;
-    
+    flex-wrap: wrap;
+}
+
+.round {
+    border-radius: 20px;
 }
 
 .section3 {
@@ -82,12 +111,18 @@ button {
     align-items: center;
     margin-top: 100px;
     padding: 100px;
-    background-color: blue;
+    background-color: #e5e7eb;
     flex-wrap: wrap;
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
 } 
 
 .text3 {
     padding: 0px;
+    font-weight: bold;
+    font-size: 18px;
+    font-style: normal;
 } 
 
 .texts3 {
@@ -97,17 +132,25 @@ button {
 }
 
 .section4 {
-    background-color: rgb(42, 165, 52);
+    background-color: ;
     padding: 100px;
 }
 
 .container4 {
     display: flex;
     align-items: center;
-    justify-content: center;
     gap: 50px;
+    justify-content: center;
+    background-color: #3882f6;
+    padding: 20px 0px;
+    margin: 0px 500px;
+    border-radius: 10px;
 }
 
 .footer {
     text-align: center;
+    background-color: #1f2937;
+    padding: 25px;
+    margin: 0px;
+    color: #e5e7eb;
 }
