@@ -96,5 +96,18 @@ button {
     align-items: flex-end;
 }
 
+.section4 {
+    background-color: rgb(42, 165, 52);
+    padding: 100px;
+}
 
+.container4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
 
+.footer {
+    text-align: center;
+}
